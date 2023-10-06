@@ -69,7 +69,7 @@ function Basket() {
 
         const errorMessages = createCheckoutData?.checkoutCreate?.errors.map((e) => e.message || "") || [];
         if (errorMessages.length === 0) {
-            const checkoutUrl = new URL(`https://www.acest.link/checkout/`);
+            const checkoutUrl = new URL(`https://www.eminstore.com/checkout/`);
             checkoutUrl.searchParams.append('checkout', createCheckoutData?.checkoutCreate?.checkout?.id);
             checkoutUrl.searchParams.append('locale', `en-US`);
             checkoutUrl.searchParams.append('channel', `default-channel`);
@@ -468,7 +468,7 @@ function Basket() {
                                                 const baseUrl = '/checkout/';
                                                 const domain = 'www.eminstore.com';
                                                 const locale = 'en-US';
-                                                const saleorApiUrl = encodeURIComponent('https://sitenou2.bjctools.ro/graphql/');
+                                                const saleorApiUrl = encodeURIComponent('https://data.eminstore.com/graphql/');
 
                                                 // Perform the page redirection
                                                 window.location.href = `${baseUrl}?domain=${domain}&locale=${locale}&order=${orderId}&saleorApiUrl=${saleorApiUrl}`;
