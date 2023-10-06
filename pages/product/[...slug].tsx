@@ -403,21 +403,21 @@ export async function getStaticProps({ params }) {
     // 打乱数组
     const dataAlso = products.sort(() => Math.random() - 0.5);
 
-  //
-  // const res = await fetch(
-  //   process.env.NEXT_PUBLIC_APIURL + `/items?slug=${slug}`
-  // );
-  // const data = await res.json();
-  // const dataItem = data[0];
+  
+  const res = await fetch(
+    process.env.NEXT_PUBLIC_APIURL + `/items?slug=${slug}`
+  );
+  const data = await res.json();
+  const dataItem = data[0];
 
-  // if (!data.length) {
-  //   return {
-  //     redirect: {
-  //       destination: "/shop",
-  //       permanent: false,
-  //     },
-  //   };
-  // }
+  if (!data.length) {
+    return {
+      redirect: {
+        destination: "/shop",
+        permanent: false,
+      },
+    };
+  }
 
   return {
     props: {
