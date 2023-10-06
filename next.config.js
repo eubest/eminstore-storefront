@@ -2,7 +2,7 @@ const checkoutEmbededInStorefrontPath = "/saleor-app-checkout";
 
 module.exports = {
     images: {
-        domains: ["sitenou2.bjctools.ro"],
+        domains: ["acest.link"],
     },
     async headers() {
         return [
