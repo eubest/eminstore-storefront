@@ -137,7 +137,7 @@ function Product({ product, dataAlso, variantSKU }) {
     const seoTitle = product.seoTitle || product.name;
     const seoDescription = product.seoDescription;
 
-    let url = `https://www.eminstore.com/product/${product.slug}/`;
+    let url = `https://www.acest.link/product/${product.slug}/`;
 // 如果 variantSKU 不为 null，将其添加到 URL 中
     if (variantSKU !== null) {
         url += `${variantSKU}/`;
