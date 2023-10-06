@@ -2,7 +2,7 @@ const checkoutEmbededInStorefrontPath = "/saleor-app-checkout";
 
 module.exports = {
     images: {
-        domains: ["acest.link"],
+        domains: ["data.eminstore.com"],
     },
     async headers() {
         return [
