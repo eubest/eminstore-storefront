@@ -1,6 +1,6 @@
 overwrite: true
 schema:
-  - https://data.eminstore.com/graphql/
+  - https://sitenou2.bjctools.ro/graphql/
 documents: "graphql/**/*.{ts,graphql}"
 generates:
   saleor/api.tsx:

@@ -57,7 +57,7 @@ function Register() {
   return (
     <>
       <Head>
-        <title>eminstore | Register</title>
+        <title>SculeBJC | Register</title>
       </Head>
       <motion.div
         initial={{ opacity: 0 }}

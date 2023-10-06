@@ -4,8 +4,8 @@ import Head from "next/head";
 
 function OurStore() {
 
-    const seoTitle = "About Eminstore - Our Story, Mission, and Contact Information | eminstore";
-    const seoDescription = "Explore the story and mission behind Eminstore, along with our contact details and social media accounts.";
+    const seoTitle = "About SculeBJC - Our Story, Mission, and Contact Information | SculeBJC";
+    const seoDescription = "Explore the story and mission behind SculeBJC, along with our contact details and social media accounts.";
 
     return (
     <>
@@ -65,7 +65,7 @@ function OurStore() {
                     Eminent Goods
                 </h3>
                 <p className="text-sm">
-                    eminstore is a comprehensive e-commerce website dedicated to selling high-quality products at affordable prices. Our mission is to provide eminent goods.
+                SculeBJC is a comprehensive e-commerce website dedicated to selling high-quality products at affordable prices. Our mission is to provide eminent goods.
                 </p>
               </div>
                 {/* TODO: Contact Information */}

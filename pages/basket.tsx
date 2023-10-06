@@ -468,7 +468,7 @@ function Basket() {
                                                 const baseUrl = '/checkout/';
                                                 const domain = 'www.eminstore.com';
                                                 const locale = 'en-US';
-                                                const saleorApiUrl = encodeURIComponent('https://data.eminstore.com/graphql/');
+                                                const saleorApiUrl = encodeURIComponent('https://sitenou2.bjctools.ro/graphql/');
 
                                                 // Perform the page redirection
                                                 window.location.href = `${baseUrl}?domain=${domain}&locale=${locale}&order=${orderId}&saleorApiUrl=${saleorApiUrl}`;
